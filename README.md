@@ -1,0 +1,1 @@
+![a main page screenshot](./images/home.png).
