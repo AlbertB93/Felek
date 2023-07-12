@@ -3,15 +3,12 @@
 # About Project
 
 This project is simple landing page about my cat Felek.
+I divded project to 6 parts aboutlife my cat. The half of them has class "img-thumbnail", which is built-in in BS5 technology.
+Second half was created by my with CSS.
 
-# One of scrap of code
+# One of scrap of code.
 
 ```
-    <div class="row text-center d-flex justify-content-center mt-2">
-      <div class="col-4 ">
-        <h2>Cześć ! Jestem Felek !</h2>
-      </div>
-    </div>
     <div class="row mt-1 pb-2 border-bottom solid border-light bg-dark justify-content-center">
       <div class="row mt-1">
         <div class="row text-center">
@@ -46,5 +43,29 @@ This project is simple landing page about my cat Felek.
       </div>
     </div>
 
+```
+
+- CSS code:
 
 ```
+<style>
+  .img__container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img__container--file {
+    border: solid 3px white;
+    border-radius: 12px;
+    height: 200px;
+    margin: 20px;
+    width: auto;
+  }
+</style>
+```
+
+# Tutorials which I used
+
+- https://www.youtube.com/watch?v=Hgvx9hYlwe8
+
+- https://www.youtube.com/watch?v=V_UexTkHK3c&t=3949s
